@@ -2,7 +2,7 @@
 layout: post
 title: The big gear spread 
 description: post short summary
-image: assets/images/gearpacked1.jpeg
+image: assets/images/gearspread1.jpeg
 ---
 
 It somehow feels that there are less gear when they spread out like this. 
