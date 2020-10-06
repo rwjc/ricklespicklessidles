@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="ajax-loading" data-site-url="{{ page.url }}/{{ page.baseurl }}" data-page-url="{{ page.url | relative_url }}">
+
+    {% include header.html %}
+
+	{% include loader.html %}
+
+	<div class="page">
+
+		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ site.baseurl }}/{{ page.image | relative}}">
+
+			<section class="intro">
+
+				<div class="wrap">
+
+					<h1>{{ page.title }}</h1>
+					<p>{{ page.description }}</p>
+
+				</div>
+
+			<ul>
+  				{% for post in site.posts %}
+    			<li>
+      				<a href="{{ post.url }}">{{ post.date | date_to_string }}: {{ post.title }}</a>
+    			</li>
+  				{% endfor %}
+			</ul>
+
+
+			</section>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
