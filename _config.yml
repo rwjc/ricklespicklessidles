@@ -20,7 +20,8 @@ sass:
   style: compressed
 
 plugins:
-  [jekyll-paginate, jekyll-feed]
+  - jekyll-paginate
+  - jekyll-feed
 
 paginate: 5
 paginate_path: "/blog/page:num/"
