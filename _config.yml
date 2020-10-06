@@ -1,14 +1,13 @@
 # site settings
-title: AJ Blogs
-subtitle: Blog page theme
-email: youremailaddress@gmail.com
-description: A simple and elegant jekyll theme for blogs.
+title: Rickles Pickles Sidles NZ
+subtitle: Te Araroa COVID Edition
+description: Walking the length of NZ because what else are you going to do after COVID?
 baseurl: "/"
 url: "https://www.ricklespicklessidles.nz"
 author: Rick Chen
 
 # social settings
-instagram_url: https://instagram.com/
+instagram_url: https://instagram.com/_rickles_pickles_
 
 collections:
   projects:
