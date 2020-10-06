@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="ajax-loading" data-site-url="{{ page.url }}/{{ page.baseurl }}" data-page-url="{{ page.url | relative_url }}">
+
+    {% include header.html %}
+
+	{% include loader.html %}
+
+	<div class="page">
+
+		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ site.baseurl }}/{{ page.image | relative}}">
+			<section class="blog single">
+
+				<div class="wrap">
+
+					{% for post in paginator.posts %}
+						<article class="blog-post">
+
+							<div class="blog-post__header">
+								<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+								<p class="blog-post__subtitle">{{ post.date | date_to_string: "ordinal" }}</p>
+							</div>
+
+							<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ site.baseurl }}/{{ post.image }})"></a>
+
+							<div class="blog-post__content">
+								<p>{{ post.description }}</p>
+								<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
+								</p>
+							</div>
+
+						</article>
+					{% endfor %}
+
+				</div>
+
+			</section>
+
+			<section class="pagination">
+
+				{% if paginator.previous_page %}
+				<div class="pagination__prev previous">
+					<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--large cc-active"><svg class="svg-inline--fa fa-angle-left fa-w-8" aria-hidden="true" data-prefix="fa" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"></path></svg><!-- <i class="fa fa-angle-left" aria-hidden="true"></i> --> <span>Newer Posts</span></a>
+				</div>
+				{% endif %}
+
+				{% if paginator.next_page %}
+				<div class="pagination__next next">
+					<a href="{{ paginator.next_page_path | relative_url }}" class="button button--large"><svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" data-prefix="fa" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <i class="fa fa-angle-right" aria-hidden="true"></i> --><span>Older Posts</span></a>
+				</div>
+				{% endif %}
+
+			</section>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

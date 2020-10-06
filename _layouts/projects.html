@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="ajax-loading" data-site-url="{{ page.url }}/{{ page.baseurl }}" data-page-url="{{ page.url | relative_url }}">
+
+    {% include header.html %}
+
+	{% include loader.html %}
+
+	<div class="page">
+
+		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ site.baseurl }}/{{ page.image | relative}}">
+
+			<section class="intro">
+
+				<div class="wrap">
+
+					<h1>{{ page.title }}</h1>
+					<p>{{ page.description }}</p>
+
+				</div>
+
+			</section>
+
+			<section class="portfolio">
+
+				<div class="wrap">
+					{% assign projects = site.projects | reverse %}
+					{% for project in projects %}
+						<div class="portfolio-item">
+							<a class="portfolio-item__link" href="{{ project.url | relative_url}}">
+								<div class="portfolio-item__image" style="background-image: url({{ site.baseurl }}/{{ project.image }});"></div>
+								<div class="portfolio-item__content">
+									<div class="portfolio-item__info">
+										<h2 class="portfolio-item__title">{{ project.title }}</h2>
+										<p class="portfolio-item__subtitle">{{ project.description }}</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					{% endfor %}
+				</div>
+			</section>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

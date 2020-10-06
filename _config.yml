@@ -1,0 +1,27 @@
+# site settings
+title: AJ Blogs
+subtitle: Blog page theme
+email: youremailaddress@gmail.com
+description: A simple and elegant jekyll theme for blogs.
+baseurl: "/"
+url: "https://www.ricklespicklessidles.nz"
+author: Rick Chen
+
+# social settings
+instagram_url: https://instagram.com/
+
+collections:
+  projects:
+    output: true
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+plugins:
+  [jekyll-paginate]
+
+paginate: 5
+paginate_path: "/blog/page:num/"

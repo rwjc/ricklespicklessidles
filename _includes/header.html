@@ -1,0 +1,115 @@
+<header class="header">
+
+		<div class="header-image header-image--on" style="background-image: url({{ page.image | relative_url }})"></div>
+		<div class="header-image"></div>
+
+		<div class="header-overlay"></div>
+
+		<div class="header__content" data-page-url="{{ page.url | relative_url }}">
+
+
+			<a href="{{ "/" | relative_url }}" class="header__title cc-active active-link">
+				AJ Blogs
+			</a>
+
+
+			<p class="header__tagline">{{ site.description }}</p>
+
+			<div class="menu">
+				<div class="menu__toggle js-menu-toggle">
+					<div class="menu__toggle__icon"><span></span></div>
+				</div>
+				<div class="menu__wrap">
+
+					<ul class="menu__list">
+
+					{% for site_page in site.pages %}
+						{% if site_page.url == "/" %}
+							<li class="menu__list__item">
+								{% if site_page.title == page.title %}
+									<a href="{{ site_page.url | relative_url }}" class="menu__list__item__link active-link">{{ site_page.title }}</a>
+								{% else %}
+									<a href="{{ site_page.url  | relative_url }}" class="menu__list__item__link">{{ site_page.title }}</a>
+								{% endif %}
+							</li>
+						{% endif %}
+					{% endfor %}
+					{% for site_page in site.html_pages %}
+						{% if site_page.layout != "home" and site_page.show == true %}
+							<li class="menu__list__item">
+								{% if site_page.title == page.title %}
+									<a href="{{ site_page.url | relative_url }}" class="menu__list__item__link active-link">{{ site_page.title }}</a>
+								{% else %}
+									<a href="{{ site_page.url | relative_url }}" class="menu__list__item__link">{{ site_page.title }}</a>
+								{% endif %}
+							</li>
+						{% endif %}
+					{% endfor %}
+
+					</ul>
+					<ul class="socials">
+
+
+						<li class="socials__item">
+							<a href="{{ site.facebook_url }}" target="_blank" class="socials__item__link" title="Facebook">
+								<i class="fab fa-facebook"></i>
+							</a>
+						</li>
+
+
+
+						<li class="socials__item">
+							<a href="{{ site.twitter_url }}" target="_blank" class="socials__item__link" title="Twitter">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+
+
+
+						<li class="socials__item">
+							<a href="{{ site.instagram_url }}" target="_blank" class="socials__item__link" title="Instagram">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="{{ site.tumblr_url}}" target="_blank" class="socials__item__link" title="Tumblr">
+								<i class="fab fa-tumblr"></i>
+							</a>
+						</li>
+
+
+
+						<li class="socials__item">
+							<a href="{{ site.dribble_url }}" target="_blank" class="socials__item__link" title="Dribbble">
+								<i class="fab fa-dribbble"></i>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="{{ site.github_url }}" target="_blank" class="socials__item__link" title="Github">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="{{ site.stackoverflow_url }}" target="_blank" class="socials__item__link" title="Stackoverflow">
+								<i class="fab fa-stack-overflow"></i>
+							</a>
+						</li>
+
+						<li class="socials__item">
+							<a href="{{ site.linkedin_url }}" target="_blank" class="socials__item__link" title="Linkedin">
+								<i class="fab fa-linkedin"></i>
+							</a>
+						</li>
+
+					</ul>
+
+
+				</div>
+			</div>
+
+		</div>
+
+	</header>

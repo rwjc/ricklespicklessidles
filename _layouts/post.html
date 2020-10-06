@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="ajax-loading" data-site-url="{{ site.url }}/{{ site.baseurl }}" data-page-url="{{ page.url | relative_url }}">
+
+    {% include header.html %}
+
+	{% include loader.html %}
+
+	<div class="page">
+
+		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ page.image | relative_url }}">
+
+			<section class="intro">
+
+				<div class="wrap">
+
+					<h1>{{ page.title }}</h1>
+					<p>{{ page.date | date_to_string: "ordinal" }}</p>
+
+				</div>
+
+			</section>
+
+			<section class="single">
+
+				<div class="wrap">
+					{{ content }}
+				</div>
+
+			</section>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
