@@ -11,7 +11,7 @@
 
 	<div class="page">
 
-		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ site.baseurl }}/{{ page.image | relative}}">
+		<div class="page__content" data-page-title="{{ page.title }}" data-image="{{ page.image | prepend:site.baseurl }}">
 			<section class="blog single">
 
 				<div class="wrap">
@@ -24,7 +24,7 @@
 								<p class="blog-post__subtitle">{{ post.date | date_to_string: "ordinal" }}</p>
 							</div>
 
-							<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ site.baseurl }}/{{ post.image }})"></a>
+							<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.image | prepend:site.baseurl }})"></a>
 
 							<div class="blog-post__content">
 								<p>{{ post.description }}</p>

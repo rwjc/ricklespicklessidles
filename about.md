@@ -16,6 +16,6 @@ Been planning to do Te Araroa for awhile. The whole situation in 2020 just excas
 
 I am looking forward to feel the way I thought I did in this picture more often.  
 
-![me with a smile in front of nature](/assets/images/me_nationalpark.jpg)
+![me with a smile in front of nature](assets/images/me_nationalpark.jpg)
 
 My goal of doing the TA is to meet and enjoy the company of the peoples of New Zealand, see and feel the natural wonders of Aotearoa in person, and eat whatever I feel like for miles and miles!
