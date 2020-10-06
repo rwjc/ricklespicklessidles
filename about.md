@@ -14,7 +14,7 @@ I am somewhere between ultralight and luxurious AF.
 
 Been planning to do Te Araroa for awhile. The whole situation in 2020 just excaserbated it - the urge to get  out!
 
-I am looking forward to feel the way I though I did in this picture more often.  
+I am looking forward to feel the way I thought I did in this picture more often.  
 
 ![me with a smile in front of nature](/assets/images/me_nationalpark.jpg)
 
