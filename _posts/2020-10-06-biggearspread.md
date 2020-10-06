@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The big gear spread 
-description: post short summary
+description: It does not feel right without doing it at least once.
 image: assets/images/gearspread1.jpeg
 ---
 
