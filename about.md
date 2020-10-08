@@ -8,6 +8,8 @@ show: true
 
 ### Summary
 
+🇹🇼 ➕ 🇳🇿
+
 First time thru-hiker/tramper/whatever you call it.
 
 I am somewhere between ultralight and luxurious AF.
