@@ -12,3 +12,6 @@ T.A. is a fairly new trail established over the two main islands of New Zealand.
 
 It is managed by the [Te Araroa Trust](https://www.teararoa.org.nz/) where you can find out all about the trail.
 
+The easiest way to get an interactive map of the whole trail is to get the official app. [Android](http://play.google.com/store/apps/details?id=com.Ellped.TheTrailApp&hl=en) / [iOS](https://apps.apple.com/nz/app/te-araroa-the-trail-app/id1448152645).
+
+Want to get involved but don't want to hike the whole thing? Become a [trail angel](https://www.facebook.com/groups/trailangels/)! Everyone will love you ❤️
