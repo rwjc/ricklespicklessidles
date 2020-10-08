@@ -22,14 +22,19 @@
 
 				</div>
 
-				<ul>
-					{% for post in site.posts %}
-					<li>
-						{{ post.date | date: "%d %b %y" }} <a href="{{ post.url }}">{{ post.title }}</a>
-					</li>
-					{% endfor %}
-				</ul>
+			</section>
 
+			<section class="single">
+
+				<div class="wrap">
+					<ul>
+						{% for post in site.posts %}
+						<li>
+							{{ post.date | date: "%d %b %y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
 
 			</section>
 
