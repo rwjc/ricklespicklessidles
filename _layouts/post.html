@@ -18,7 +18,7 @@
 				<div class="wrap">
 
 					<h1>{{ page.title }}</h1>
-					<p>{{ page.date | date_to_string: "ordinal" }}</p>
+					<p>{{ page.date | date: "%A, %d %b %Y" }}</p>
 					<small>{{ page.tags | join: ", " }}</small>
 
 				</div>
