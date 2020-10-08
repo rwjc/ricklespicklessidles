@@ -41,4 +41,4 @@ Mt. Zion. Closed due to Kauri dieback 😢
 
 In the end I didn't drop that many things. But it was good to go over everyhing again, including trying to create this post while out which I've never done before.
 
-- Rick
+－_Rick_
