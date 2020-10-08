@@ -6,7 +6,7 @@ image: assets/images/me_tararuas.jpg
 show: true
 ---
 
-### Summary
+Hiya my name is Rick.
 
 🇹🇼 ➕ 🇳🇿
 
