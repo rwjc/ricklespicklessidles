@@ -4,6 +4,7 @@ title: The big gear spread
 description: It does not feel right without doing it at least once.
 image: assets/images/gearspread1.jpeg
 tags: teararoa gear
+comments: true
 ---
 
 It somehow feels that there are less gear when they spread out like this.
