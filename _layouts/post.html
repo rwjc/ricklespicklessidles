@@ -33,6 +33,18 @@
 
 			</section>
 
+			<section class="single">
+
+				<div class="wrap">
+
+					{% if page.comments == true %}
+						{% include comments.html %}
+					{% endif %}
+
+				</div>
+
+			</section>
+
 		</div>
 
 	</div>
