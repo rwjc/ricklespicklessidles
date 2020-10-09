@@ -3,6 +3,8 @@ layout: post
 title: Day -2&#58; mini puny shakedown hike
 description: Trying out the gear and stayed at a nearby campsite to do some final tweaks.
 image: assets/images/20201008/img_1202.jpg
+tags: teararoa
+comments: true
 ---
 
 Final little hike to shakedown the gear at [Tunnel Point campsite](https://www.aucklandcouncil.govt.nz/parks-recreation/stay-at-park/Pages/accommodation-details.aspx?itemID=101) on the west coast. Even a little bit of beach walk as a sneak peek of the 90 Mile Beach.
