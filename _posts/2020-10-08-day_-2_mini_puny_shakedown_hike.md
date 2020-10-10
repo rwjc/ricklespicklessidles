@@ -9,37 +9,37 @@ comments: true
 
 Final little hike to shakedown the gear at [Tunnel Point campsite](https://www.aucklandcouncil.govt.nz/parks-recreation/stay-at-park/Pages/accommodation-details.aspx?itemID=101) on the west coast. Even a little bit of beach walk as a sneak peek of the 90 Mile Beach.
 
-![IMG_1174](/assets/images/20201008/img_1174.jpg)
-
 I guess now it’s obvious why it’s called that.
 
-![IMG_1189](/assets/images/20201008/img_1189.jpg)
-
-![IMG_1191](/assets/images/20201008/img_1191.jpg)
-
-![IMG_1193](/assets/images/20201008/img_1193.jpg)
+<div class="gallery" data-columns="2">
+  <img src="/assets/images/20201008/img_1189.jpg">
+  <img src="/assets/images/20201008/img_1191.jpg">
+  <img src="/assets/images/20201008/img_1193.jpg">
+  <img src="/assets/images/20201008/img_1174.jpg">
+  <img src="/assets/images/20201008/img_1205.jpg">
+</div>
 
 Neat little camp spot.
 
-![IMG_1197](/assets/images/20201008/img_1197.jpg)
-
-![IMG_1199](/assets/images/20201008/img_1199.jpg)
-
-![IMG_1202](/assets/images/20201008/img_1202.jpg)
-
-![IMG_1205](/assets/images/20201008/img_1205.jpg)
+<div class="gallery" data-columns="2">
+  <img src="/assets/images/20201008/img_1197.jpg">
+  <img src="/assets/images/20201008/img_1199.jpg">
+  <img src="/assets/images/20201008/img_1202.jpg">
+</div>
 
 All packed and ready to head back!
 
-![IMG_1212](/assets/images/20201008/img_1212.jpg)
-
-![IMG_1213](/assets/images/20201008/img_1213.jpg)
+<div class="gallery" data-columns="2">
+  <img src="/assets/images/20201008/img_1212.jpg">
+  <img src="/assets/images/20201008/img_1213.jpg">
+</div>
 
 Mt. Zion. Closed due to Kauri dieback 😢
 
-![IMG_1221](/assets/images/20201008/img_1221.jpg)
-
-![IMG_1224](/assets/images/20201008/img_1224.jpg)
+<div class="gallery" data-columns="2">
+  <img src="/assets/images/20201008/img_1221.jpg">
+  <img src="/assets/images/20201008/img_1224.jpg">
+</div>
 
 In the end I didn't drop that many things. But it was good to go over everyhing again, including trying to create this post while out which I've never done before.
 
