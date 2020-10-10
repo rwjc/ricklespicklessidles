@@ -6,35 +6,35 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-  <div class="textfield">
-    <label for="comment-form-message"><h3>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h3>
+  <label for="comment-form-message"><h3>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h3>
+    <div class="textfield">
       <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="6"></textarea>
-    </label>
-  </div>
-
-    <div class="textfield narrowfield">
-      <label for="comment-form-name">Name
-        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
-      </label>
     </div>
+  </label>
 
+  <label for="comment-form-name">Name
     <div class="textfield narrowfield">
-      <label for="comment-form-email">E-mail
-        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
-      </label>
+      <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
     </div>
+  </label>
 
+  <label for="comment-form-email">E-mail
+    <div class="textfield narrowfield">
+      <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
+    </div>
+  </label>
+
+  <label for="hp">
     <div class="textfield narrowfield hp">
-      <label for="hp">
-        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
-      </label>
+      <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
     </div>
+  </label>
 
-    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+  <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
 
-    <button class="button" id="comment-form-submit">
-      Submit
-    </button>
+  <button class="button" id="comment-form-submit">
+    Submit
+  </button>
 
 </form>
 
