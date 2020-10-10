@@ -13,4 +13,6 @@ Feel free to sing along!
 src="https://www.youtube.com/embed/ixkVAoUdBMg">
 </iframe>
 
+Thanks to Ollie and Lavi from [Two World Optimists](https://www.youtube.com/channel/UCAnjsy_m02aOKHUiI6xARjw) for creating this gem!
+
 －_Rick_
