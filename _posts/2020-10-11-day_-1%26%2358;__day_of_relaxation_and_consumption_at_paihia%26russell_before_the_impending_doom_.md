@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Day -1&#58;  day of relaxation and consumption at Paihia & Russell before the impending doom 
-description: post short summary
-image: assets/images/20201011/img_1.jpg
+description: Today I left my cozy place in Auckland and drove up to Paihia with my family
+image: assets/images/20201011/img_1266.jpg
 tags: teararoa
 comments: true
 ---
