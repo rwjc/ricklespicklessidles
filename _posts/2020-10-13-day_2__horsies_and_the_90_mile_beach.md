@@ -72,7 +72,7 @@ The second group is very close to the campsite I was heading to. There were lots
 
 ![IMG_1478](/assets/images/20201013/img_1478.jpg)
 
-After setting up the tent at the campsite (has flush toilets and cold showered wow), Teo came storming in with his super light pack. He is a cold soaker and he volunteers at OTNZ and is from Palmerston North. He told me about Just Zilch which is an organisation that takes food from cafes and restaurants that would otherwise be dumped at the end of the day and give them to people FOR FREE. What a great idea. I will definitely go check it out when I get to Palmy. 
+After setting up the tent at the campsite (has flush toilets and cold showered wow), Theo came storming in with his super light pack. He is a cold soaker and he volunteers at OTNZ and is from Palmerston North. He told me about Just Zilch which is an organisation that takes food from cafes and restaurants that would otherwise be dumped at the end of the day and give them to people FOR FREE. What a great idea. I will definitely go check it out when I get to Palmy. 
 
 Later on Paul and Barbara came as well. Barbara had slipped earlier during the rain and had hurt her wrist. It looks bad. So after giving her some ibuprofen we discussed what they should do. They will try and contact someone and see if she can be picked up and go to a hospital. Hopefully they can resume the walk soon. 
 
