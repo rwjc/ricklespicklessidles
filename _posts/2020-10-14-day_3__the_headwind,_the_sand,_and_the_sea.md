@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 3&#58;  the headwind, the sand, and the sea
+title: Day 3&#58; the headwind, the sand, and the sea
 description: 30km of beach with not much variation, except the sun and the tide. But no fret: we got planes! More horses! And salty snacks!
 image: assets/images/20201014/img_1541.jpg
 tags: teararoa
