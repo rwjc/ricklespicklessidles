@@ -36,7 +36,13 @@ Found a nice log (with an unopened steinlager — trail magic?) to have lunch.
   <img src="/assets/images/20201014/img_1529.jpg">
 </div>
 
-Came across a couple - one fishing and  another looking for ambergris. She told me all about it. It’s whale vomit (!!) and worths *a lot*. She said last year she found one that was the size of a golf ball and it was sold for more than 1000 dollars 😳. They have been coming to fish on 90 Mile Beach for 19 years. They are from Waipu. Amazing chat. She even gave me some salty snacks for the road.
+Came across a couple - one fishing and  another looking for ambergris. She told me all about it. It’s whale vomit (!!) and worths *a lot*. She said last year she found one that was the size of a golf ball and it was sold for more than 1000 dollars 😳. 
+
+They have been coming to fish on 90 Mile Beach for 19 years. When I told them what I was doing this was her reply:
+
+<blockquote><small>”why are you doing that!?”</small></blockquote>
+
+Looks like this won’t be the first time I need to answer this question. They are from Waipu. It was an amazing chat. She even gave me some salty snacks for the road.
 
 <div class="gallery" data-columns="2">
   <img src="/assets/images/20201014/img_1530.jpg">
