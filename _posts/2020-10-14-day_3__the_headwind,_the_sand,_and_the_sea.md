@@ -80,7 +80,7 @@ Then the owner of this here establishment Gabriella came back from a meeting (ab
   <img src="/assets/images/20201014/img_1587.jpg">
 </div>
 
-Gabriella is super lovely. She has been running the lodge for 21 years and the whole place is completely off grid. It’s got solar power and bore water with gas.
+Gabriella is super lovely. She has been running the lodge for 21 years and the whole place is completely off grid. It’s got solar power and bore water with gas. She loves hikers because we’re so easy to please and we appreciate the littlest thing (it’s true).
 
 All four of us had a cult of tea and chatted past hiker midnight and it was a blast.
 
