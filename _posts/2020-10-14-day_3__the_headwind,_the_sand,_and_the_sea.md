@@ -65,6 +65,8 @@ Then finally I arrived at Hukatere lodge. It is a magical place. Hot showers, fr
 
 Theo waved me in to the reception which is a nice warm room with all the goodies. There I met Susan who is a veteran long distance adventurer (PCT, AT, Tour Te Araroa - where you bike the length of NZ, and the very first class of TA hiker to do the South Island after it was officially opened, and way more). I could listen to her about her all day. I also found out she used to be a tax lawyer and is an avid Linux user to this day!
 
+Susan did something incredibly smart. The whole day going SOBO (southbound) we had a massive headwind (southwesterly). Susan looked at the weather forecast beforehand and saw that it was the predominant wind and decided to flip it so for the beginning sections she would walk from Ahipara northward to Cape Reinga and get the nice tailwind. I didn’t even think of that!! 
+
 Then the owner of this here establishment Gabriella came back from a meeting (about Northland tourism it turns out), with Kepr (shortened from “keep her” 😄). Introducing Kepr and her elephant friend:
 
 <div class="gallery" data-columns="3">
