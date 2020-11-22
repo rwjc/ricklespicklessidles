@@ -1834,7 +1834,7 @@ section {
 }
 
 .single table {
-	min-width: 600px;
+	min-width: 100px;
 	border: 2px solid #2a2f36
 }
 
