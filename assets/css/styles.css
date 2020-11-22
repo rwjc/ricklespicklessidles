@@ -1829,7 +1829,7 @@ section {
 
 .single .table-wrap {
 	display: block;
-	width: 100%;
+	width: 80%;
 	overflow-x: auto
 }
 
