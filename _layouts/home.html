@@ -24,7 +24,7 @@
 								<p class="blog-post__subtitle">{{ post.date | date_to_string: "ordinal" }}</p>
 							</div>
 
-							<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.image | prepend:site.baseurl }})"></a>
+							<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.image | prepend:{{ site.url }}/{{ site.baseurl }} }})"></a>
 
 							<div class="blog-post__content">
 								<p>{{ post.description }}</p>
