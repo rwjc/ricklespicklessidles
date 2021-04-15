@@ -1696,7 +1696,6 @@ section {
 .single {
 	margin-top: 0;
 	padding: 20px 0;
-	min-height: 100vh
 }
 
 @media only screen and (min-width:768px) {
@@ -2952,6 +2951,34 @@ section {
 	}
 }
 
+.pagination_post__next,
+.pagination_post__prev {
+	min-width: 20%;
+	max-width: 45%;
+	padding-bottom: 25px;
+}
+
+.pagination_post__next .button {
+	display: block;
+	text-align: right;
+}
+.pagination_post__prev .button {
+	display: block;
+	text-align: left;
+}
+
+.pagination_post__prev {
+	float: left;
+	padding-left: 25px;
+	padding-right: 5px
+}
+
+.pagination_post__next {
+	float: right;
+	padding-left: 5px;
+	padding-right: 25px
+}
+
 .pagination__next,
 .pagination__prev {
 	width: 50%;
@@ -2961,7 +2988,7 @@ section {
 .pagination__next .button,
 .pagination__prev .button {
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 .pagination__prev {

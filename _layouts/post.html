@@ -5,7 +5,7 @@
 
 <body class="ajax-loading" data-site-url="{{ site.url }}/{{ site.baseurl }}" data-page-url="{{ page.url | relative_url }}">
 
-    {% include header.html %}
+	{% include header.html %}
 
 	{% include loader.html %}
 
@@ -34,6 +34,11 @@
 			</section>
 
 			<section class="single">
+				{% include page_pagination.html %}
+			</section>
+
+
+			<section class="single">
 
 				<div class="wrap">
 
@@ -48,6 +53,7 @@
 		</div>
 
 	</div>
+
 
 </body>
 

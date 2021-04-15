@@ -1,0 +1,13 @@
+<div class="pagination">
+	{% if page.previous.url %}
+	<div class="pagination_post__prev previous">
+		<a class="button button--large cc-active" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+	</div>
+	{% endif %}
+
+	{% if page.next.url %}
+	<div class="pagination_post__next next">
+		<a class="button button--large" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+	</div>
+	{% endif %}
+</div>
