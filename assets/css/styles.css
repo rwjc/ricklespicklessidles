@@ -2954,7 +2954,8 @@ section {
 
 .pagination__next,
 .pagination__prev {
-	width: 50%
+	width: 50%;
+	padding-bottom: 75px;
 }
 
 .pagination__next .button,
